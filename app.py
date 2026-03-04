@@ -13,6 +13,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 # Chains: Orchestrates the Retrieval-Augmented Generation process
 from langchain.chains import RetrievalQA
 
+
 # --- Configuration Constants ---
 # Path to the quantized model file
 MODEL_PATH = "models/mistral-7b-instruct-v0.2.Q4_K_M.gguf"

@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.env
+.venv/
+
+# Local Vector Database
+chroma_db/
+
+# Large Language Models
+models/
+*.gguf
+*.bin
+
+# macOS specific
+.DS_Store
+
+# IDEs and Editors
+.vscode/
+.idea/
